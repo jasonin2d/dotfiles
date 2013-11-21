@@ -10,13 +10,11 @@ olddotdir=~/olddotfiles
 mkdir -p $olddotdir
 
 for file in $files; do
-    if [ -f ~/.$file ]
-        then
-            echo "Backing up old copy of .$file"
-            mv ~/.$file $olddotdir
+    if [ -f ~/.$file ]; then
+        echo "Backing up old copy of .$file"
+        mv ~/.$file $olddotdir
     fi
     echo "Creating symlink for ~/dotfiles/$file"
     ln -s $dotdir/$file ~/.$file 
-    echo "...done"
 done
 
