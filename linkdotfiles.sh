@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Script to create symlinks back to contents of dotfiles directory
 
