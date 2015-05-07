@@ -11,3 +11,8 @@ set hlsearch
 filetype indent on
 syntax on
 autocmd BufEnter * :syntax sync fromstart
+" Tab and window management
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
+map <C-L> :tabn<CR>
+map <C-H> :tabp<CR>
