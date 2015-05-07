@@ -5,6 +5,8 @@ set softtabstop=4
 set shiftwidth=4
 " Search options
 set ignorecase
+set incsearch
+set hlsearch
 " File type and highlighting options
 filetype indent on
 syntax on
