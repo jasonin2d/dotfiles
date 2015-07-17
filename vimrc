@@ -20,3 +20,9 @@ map <C-H> :tabp<CR>
 let g:netrw_liststyle=3
 " Display line for cursor location
 set cursorline
+" Use F2 to toggle paste mode
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+" Press return in normal mode to clear a highlighted search
+nnoremap <CR> :nohlsearch<CR><CR>
