@@ -18,3 +18,5 @@ map <C-L> :tabn<CR>
 map <C-H> :tabp<CR>
 " Default tree view for netrw
 let g:netrw_liststyle=3
+" Display line for cursor location
+set cursorline
