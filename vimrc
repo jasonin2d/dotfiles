@@ -26,3 +26,5 @@ set pastetoggle=<F2>
 set showmode
 " Press return in normal mode to clear a highlighted search
 nnoremap <CR> :nohlsearch<CR><CR>
+" Open file explorer in tab mode
+nnoremap <F3> :Texplore<CR>
