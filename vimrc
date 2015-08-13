@@ -1,3 +1,6 @@
+" Sane backspace etc
+set nocompatible
+set backspace=2
 " Tab options
 set tabstop=4
 set expandtab
