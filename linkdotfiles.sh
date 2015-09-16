@@ -2,7 +2,7 @@
 
 # Script to create symlinks back to contents of dotfiles directory
 
-files="tmux.conf vimrc"
+files="tmux.conf vimrc zshrc"
 
 dotdir=~/dotfiles
 olddotdir=~/olddotfiles
